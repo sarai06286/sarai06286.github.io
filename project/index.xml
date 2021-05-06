@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Chris Turner</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Chris Turner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 2</title>
+      <link>/project/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project2/</guid>
+      <description>knitr::opts_chunk$set(echo = TRUE, eval = TRUE, fig.align = &amp;quot;center&amp;quot;, warning = F, message = F, tidy=TRUE, tidy.opts=list(width.cutoff=60), R.options=list(max.print=100)) ##0)Introduction
+library(fivethirtyeight) library(tidyverse) library(dplyr) library(lmtest) library(plotROC) data(hate_crimes) data(police_killings) fulldata &amp;lt;- full_join(police_killings, hate_crimes, by = c(state = &amp;quot;state_abbrev&amp;quot;)) fulldata &amp;lt;- fulldata %&amp;gt;% select(age, gender, raceethnicity, state, cause, armed, pop, county_income, hate_crimes_per_100k_splc, share_vote_trump) %&amp;gt;% na.omit The merged dataset that is being used was chosen from the two datasets used in the first experiment, which are “police_killings” and “hate_crimes”.</description>
+    </item>
+    
+    <item>
+      <title>project1</title>
+      <link>/project/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project1/</guid>
+      <description>knitr::opts_chunk$set(echo = TRUE, eval = TRUE, fig.align = &amp;quot;center&amp;quot;, warning = F, message = F, tidy=TRUE, tidy.opts=list(width.cutoff=60), R.options=list(max.print=100)) ##Introduction
+library(fivethirtyeight) library(tidyverse) library(dplyr) data(hate_crimes) data(police_killings) The two datasets that were chosen are “police_killings” and “hate_crimes”. Police_killings contains 467 observations with 34 variables which include: name, age, gender, raceethnicity, month, day, year, streetaddress, city, state, latitude, state_fp, county_fp, tract_ce, geo_id, county_id, nameIsad, lawenforcementagency, cause, armed, pop, share_white, share_hispanic, share_black, p_income, h_income, county_income, comp_income, county_bucket, nat_bucket, pov, urate, and college.</description>
+    </item>
+    
+  </channel>
+</rss>
