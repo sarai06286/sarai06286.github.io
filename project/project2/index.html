@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Chris Turner" />
+    <meta name="author" content="Sarai Rainey" />
     
     <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico">
     <title>Project 2</title>
@@ -407,17 +407,17 @@ resid_resamp &lt;- replicate(5000, {
 })
 resid_resamp %&gt;% t %&gt;% as.data.frame %&gt;% summarize_all(sd)</code></pre>
 <pre><code>##   (Intercept) share_vote_trump_c raceethnicityBlack
-## 1   0.0583848          0.6014904         0.05930395
+## 1  0.05760688          0.6002409         0.05872328
 ##   raceethnicityHispanic/Latino raceethnicityNative American raceethnicityWhite
-## 1                    0.0611386                   0.09047306         0.05911504
+## 1                   0.06016502                   0.08749978         0.05812972
 ##   share_vote_trump_c:raceethnicityBlack
-## 1                             0.6130252
+## 1                             0.6101657
 ##   share_vote_trump_c:raceethnicityHispanic/Latino
-## 1                                       0.6278694
+## 1                                       0.6284081
 ##   share_vote_trump_c:raceethnicityNative American
-## 1                                        1.307136
+## 1                                        1.293609
 ##   share_vote_trump_c:raceethnicityWhite
-## 1                             0.6061948</code></pre>
+## 1                             0.6078024</code></pre>
 <p><em>With interactions between race/ethnicity and Trump votes, the following interactions were reported using bootstrapping. The predicted hate crimes within a population for the Asian population is 0.059. Hate crimes associated with Trump votes for the Asian population: for every 1-unit increase in hate crimes, predicted Trump votes go up 0.61 for this group. The Black population with zero Trump votes have predicted hate crimes that are 0.06 higher than the Asian population with zero hate crimes. Slope of Trump votes on hate crimes for the Black population is 0.62 higher than the Asian population. The Hispanic population with zero Trump votes have predicted hate crimes that are 0.061 higher than the Asian population with zero hate crimes. This value remained unchanged like that of the original SE values found.Slope of Trump votes on hate crimes for the Hispanic population is 0.63 higher than the Asian population. The Native American population with zero Trump votes have predicted hate crimes that are 0.09 higher than the Asian population with zero hate crimes. Slope of Trump votes on hate crimes for the Native American population is 1.32 higher than the Asian population.The White population with zero Trump votes have predicted hate crimes that are 0.06 higher than the Asian population with zero hate crimes. Slope of Trump votes on hate crimes for the White population is 0.61 higher than the Asian population. The Hispanic population was the only SE than remained unchanged when only looking at race and hate crimes.</em></p>
 <p>##5)Binary Variable</p>
 <pre class="r"><code>data &lt;- fulldata %&gt;% mutate(y = ifelse(armed == &quot;No&quot;, 1, 0))
