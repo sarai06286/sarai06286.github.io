@@ -1,0 +1,9 @@
+---
+title: R Studio and Python Interactions
+author: Sarai Rainey
+date: '2021-05-08'
+slug: r-studio-and-python-interactions
+categories: []
+tags: []
+description: ''
+---
