@@ -1,7 +1,7 @@
 ---
 title: "Project 2"
 author: "Sarai Rainey, sis446"
-date: "5/02/2021"
+date: "2021-05-09"
 output: html_document
 ---
 ```{r}
