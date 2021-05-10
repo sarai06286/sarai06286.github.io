@@ -7,3 +7,47 @@ categories: []
 tags: []
 description: ''
 ---
+With my time at UT coming to a close, I figured I would add an appreciation post to what got me through my four years of college, Monster. Reticulate allowed me to use both R and Python to show off my favorite flavors; however, the sugar free white can is my staple. My sugar free energy drink preference will probably carry over to my new career. Hopefully, so will my experience with R and Python. 
+```{r}
+names(knitr::knit_engines$get())
+```
+
+##Python and R
+```{r}
+
+library(reticulate)
+
+mo <- "Monster"
+```
+
+```{python}
+mo = "Energy"
+print(r.mo,mo) 
+```
+
+
+```{r}
+cat(c(mo,py$mo))
+```
+
+
+![](/post/2021-05-08-r-studio-and-python-interactions_files/monster.jpg)
+
+
+There is also an example of how R and Python differ from each other when forming lists. It is interesting to contrast a simple function between the two programs because Python starts at zero, instead of one like R does. This illustrates that both are useful programming tools, but have their own little quirks. R also uses a colon for the list while Python uses range. 
+
+##Python vs R
+```{r}
+twenty<- list(1:21)
+twenty
+```
+
+
+```{python}
+twenty=list(range(21))
+twenty
+```
+
+
+
+

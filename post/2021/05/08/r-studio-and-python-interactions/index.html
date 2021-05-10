@@ -72,7 +72,38 @@
               
 
 
+<p>With my time at UT coming to a close, I figured I would add an appreciation post to what got me through my four years of college, Monster. Reticulate allowed me to use both R and Python to show off my favorite flavors; however, the sugar free white can is my staple. My sugar free energy drink preference will probably carry over to my new career. Hopefully, so will my experience with R and Python.</p>
+<pre class="r"><code>names(knitr::knit_engines$get())</code></pre>
+<pre><code>##  [1] &quot;awk&quot;         &quot;bash&quot;        &quot;coffee&quot;      &quot;gawk&quot;        &quot;groovy&quot;     
+##  [6] &quot;haskell&quot;     &quot;lein&quot;        &quot;mysql&quot;       &quot;node&quot;        &quot;octave&quot;     
+## [11] &quot;perl&quot;        &quot;psql&quot;        &quot;Rscript&quot;     &quot;ruby&quot;        &quot;sas&quot;        
+## [16] &quot;scala&quot;       &quot;sed&quot;         &quot;sh&quot;          &quot;stata&quot;       &quot;zsh&quot;        
+## [21] &quot;highlight&quot;   &quot;Rcpp&quot;        &quot;tikz&quot;        &quot;dot&quot;         &quot;c&quot;          
+## [26] &quot;cc&quot;          &quot;fortran&quot;     &quot;fortran95&quot;   &quot;asy&quot;         &quot;cat&quot;        
+## [31] &quot;asis&quot;        &quot;stan&quot;        &quot;block&quot;       &quot;block2&quot;      &quot;js&quot;         
+## [36] &quot;css&quot;         &quot;sql&quot;         &quot;go&quot;          &quot;python&quot;      &quot;julia&quot;      
+## [41] &quot;sass&quot;        &quot;scss&quot;        &quot;theorem&quot;     &quot;lemma&quot;       &quot;corollary&quot;  
+## [46] &quot;proposition&quot; &quot;conjecture&quot;  &quot;definition&quot;  &quot;example&quot;     &quot;exercise&quot;   
+## [51] &quot;proof&quot;       &quot;remark&quot;      &quot;solution&quot;</code></pre>
+<p>##Python and R</p>
+<pre class="r"><code>library(reticulate)
 
+mo &lt;- &quot;Monster&quot;</code></pre>
+<pre class="python"><code>mo = &quot;Energy&quot;
+print(r.mo,mo) </code></pre>
+<pre><code>## Monster Energy</code></pre>
+<pre class="r"><code>cat(c(mo,py$mo))</code></pre>
+<pre><code>## Monster Energy</code></pre>
+<p><img src="../../../../../post/2021-05-08-r-studio-and-python-interactions_files/monster.jpg" /></p>
+<p>There is also an example of how R and Python differ from each other when forming lists. It is interesting to contrast a simple function between the two programs because Python starts at zero, instead of one like R does. This illustrates that both are useful programming tools, but have their own little quirks. R also uses a colon for the list while Python uses range.</p>
+<p>##Python vs R</p>
+<pre class="r"><code>twenty&lt;- list(1:21)
+twenty</code></pre>
+<pre><code>## [[1]]
+##  [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21</code></pre>
+<pre class="python"><code>twenty=list(range(21))
+twenty</code></pre>
+<pre><code>## [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]</code></pre>
 
             
         <hr>         <div class="related-posts">

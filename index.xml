@@ -6,20 +6,11 @@
     <description>Recent content on Project 3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>R Studio and Python Interactions</title>
-      <link>/post/2021/05/08/r-studio-and-python-interactions/</link>
-      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2021/05/08/r-studio-and-python-interactions/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project 2</title>
       <link>/project/project2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
       
       <guid>/project/project2/</guid>
       <description>knitr::opts_chunk$set(echo = TRUE, eval = TRUE, fig.align = &amp;quot;center&amp;quot;, warning = F, message = F, tidy=TRUE, tidy.opts=list(width.cutoff=60), R.options=list(max.print=100)) ##0)Introduction
@@ -29,11 +20,20 @@ library(fivethirtyeight) library(tidyverse) library(dplyr) library(lmtest) libra
     <item>
       <title>project1</title>
       <link>/project/project1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
       
       <guid>/project/project1/</guid>
       <description>knitr::opts_chunk$set(echo = TRUE, eval = TRUE, fig.align = &amp;quot;center&amp;quot;, warning = F, message = F, tidy=TRUE, tidy.opts=list(width.cutoff=60), R.options=list(max.print=100)) ##Introduction
 library(fivethirtyeight) library(tidyverse) library(dplyr) data(hate_crimes) data(police_killings) The two datasets that were chosen are “police_killings” and “hate_crimes”. Police_killings contains 467 observations with 34 variables which include: name, age, gender, raceethnicity, month, day, year, streetaddress, city, state, latitude, state_fp, county_fp, tract_ce, geo_id, county_id, nameIsad, lawenforcementagency, cause, armed, pop, share_white, share_hispanic, share_black, p_income, h_income, county_income, comp_income, county_bucket, nat_bucket, pov, urate, and college.</description>
+    </item>
+    
+    <item>
+      <title>R Studio and Python Interactions</title>
+      <link>/post/2021/05/08/r-studio-and-python-interactions/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/05/08/r-studio-and-python-interactions/</guid>
+      <description>With my time at UT coming to a close, I figured I would add an appreciation post to what got me through my four years of college, Monster. Reticulate allowed me to use both R and Python to show off my favorite flavors; however, the sugar free white can is my staple. My sugar free energy drink preference will probably carry over to my new career. Hopefully, so will my experience with R and Python.</description>
     </item>
     
     <item>
@@ -54,7 +54,8 @@ library(fivethirtyeight) library(tidyverse) library(dplyr) data(hate_crimes) dat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/resume/</guid>
-      <description>    </description>
+      <description>Sarai Rainey 169 N Hazelwood Dr Mocksville, NC 27028| (956)352-9930 | sarai06286@gmail.com
+Sarai Rainey was born February 10, 1999 in Mission, Tx. From early on she held a strong passion for music, playing the trumpet up until college, while being the first chair throughout high school for Rio Grande City Highschool. However, her interests moved towards anatomy, thanks to the popular tv series “Bones”, and sustainability. She is now on her way to graduating from the University of Texas at Austin with a BSA in biology.</description>
     </item>
     
   </channel>
